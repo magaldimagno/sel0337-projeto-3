@@ -1,0 +1,12 @@
+[Unit]
+Description=Servico Python Blink LED - SEL0337 (Eduardo e Lucas)
+After=multi-user.target
+
+[Service]
+Type=simple
+ExecStart=/usr/bin/python3 /home/sel/8007/init/blink_main.py
+ExecStop=/usr/bin/python3 /home/sel/8007/init/blink_stop.py
+User=sel
+
+[Install]
+WantedBy=multi-user.target
