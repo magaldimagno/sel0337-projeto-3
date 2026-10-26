@@ -4,8 +4,8 @@ After=multi-user.target
 
 [Service]
 Type=simple
-ExecStart=/usr/bin/python3 /home/sel/8007/init/blink_main.py
-ExecStop=/usr/bin/python3 /home/sel/8007/init/blink_stop.py
+ExecStart=/usr/bin/python3 /home/sel/sel0337-projeto-3/checkpoint1/blink.py
+ExecStop=/usr/bin/python3 /home/sel/sel0337-projeto-3/checkpoint1/blink_stop.py
 User=sel
 
 [Install]

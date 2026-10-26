@@ -3,7 +3,7 @@
 DIR=$PWD
 
 echo "Concedendo permissões de execução..."
-chmod +x $DIR/blink_main.py
+chmod +x $DIR/blink.py
 chmod +x $DIR/blink_stop.py
 
 echo "Copiando o arquivo de serviço..."
