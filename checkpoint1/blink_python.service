@@ -1,5 +1,5 @@
 [Unit]
-Description=Servico Python Blink LED - SEL0337 (Eduardo e Lucas)
+Description=Blink LED - Eduardo e Lucas
 After=multi-user.target
 
 [Service]
